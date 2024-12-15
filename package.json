@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "cd api && node index.js",
+    "dev": "cd api && nodemon index.js"
   },
   "author": "Bhupesh and Bhumika",
   "license": "ISC",
