@@ -10,7 +10,7 @@ import cors from 'cors';
 dotenv.config();
 const app=express();
 const corsOptions = {
-    origin: ['https://interview-expo.vercel.app/'], // Frontend URLs
+    origin: ['https://interview-expo.vercel.app'], // Frontend URLs
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     credentials: true, // Allow cookies and credentials
   };
