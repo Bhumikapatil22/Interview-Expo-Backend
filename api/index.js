@@ -1,7 +1,7 @@
 import express from 'express';
-import dbConnect from './config/database.js'
+import dbConnect from '../config/database.js'
 import dotenv from 'dotenv';
-import ExpoRoutes from './routes/ExpoRoutes.js'
+import ExpoRoutes from '../routes/ExpoRoutes.js'
 // In your server.js or app.js
 import cors from 'cors';
 
